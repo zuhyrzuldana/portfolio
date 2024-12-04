@@ -1,0 +1,87 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to bottom,#6110f9,green);
+
+}
+
+.form-container{
+    background-color: black;
+    color: #fbf6f6;
+    padding: 20px 30px;
+    border-radius: 8px;
+    width: 300px;
+    box-shadow: 0 4px 10px rgb(0,0,0,0.2);
+    text-align: center;
+}
+.form-container h2{
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+.progress-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.progress-bar div{
+    width: 30px;
+    height: 30px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgb(0,0,0,0.2);
+}
+.progress-bar div.active{
+    background-color:#00ff00;
+    color: #fcfdfd;
+}
+.form label{
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    text-align: left;
+}
+.form input{
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0 2px 4px black;
+}
+.button-group{
+    display: flex;
+    justify-content: space-between;
+}
+.button-group button{
+    width: 45%;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fbf6f6;
+}
+.button-group .back{
+    background: #333;
+}
+.button-group .next{
+    background: green;
+}
+.button-group button:hover{
+    opacity: 0.9;
+    background-color: aqua;
+}
